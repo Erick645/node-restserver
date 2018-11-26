@@ -9,7 +9,6 @@ const Usuario = require('../models/usuario');
 const app = express();
 
 
-
 app.post('/login', function(req, res) {
 
     let body = req.body;
